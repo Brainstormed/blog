@@ -1,16 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Fira+Sans+Condensed:wght@200&family=JetBrains+Mono:wght@200&family=Roboto:wght@300&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
 
-@media only screen and (min-width: 815px) {
-  .welcome-container {
-    display: flex;
-    flex-direction: column;
-    padding-left: 30vw;
-  }
-}
-
 html,
 body {
+  margin: auto;
+  max-width: 101vw;
   scroll-behavior: smooth;
   background-color: rgb(121, 84, 37);
 }
@@ -94,10 +88,11 @@ a {
 }
 
 .button {
+  width: 120px;
   height: 60px;
   padding-top: 15px;
   background-color: transparent;
-  border-radius: 0;
+  border-radius: 10px;
   border: none;
 }
 
@@ -137,12 +132,11 @@ img {
 
 footer {
   display: flex;
-  margin-top: 50px;
-  height: 50px;
+  height: 30px;
   justify-content: end;
   align-content: center;
   font-family: "Fira Code", monospace;
-  padding-top: 30px;
+  margin-top: 60px;
 }
 
 .prfl-img:hover {
@@ -162,5 +156,20 @@ footer {
 @keyframes img-hover {
   100% {
     box-shadow: rgb(36, 36, 36) 10px 10px 10px;
+  }
+}
+
+@media all and (max-width: 550px) {
+  #navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(255, 214, 103);
+    box-shadow: 0 10px 10px rgb(54, 54, 54);
+    z-index: 10;
   }
 }
