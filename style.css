@@ -161,8 +161,8 @@ footer {
 
 @media all and (max-width: 550px) {
   #navbar {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    position: sticky;
+    display: flex;
     justify-content: space-around;
     position: fixed;
     top: 0;
@@ -171,5 +171,15 @@ footer {
     background: rgb(255, 214, 103);
     box-shadow: 0 10px 10px rgb(54, 54, 54);
     z-index: 10;
+  }
+
+  .project-tile {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    font-size: 14px;
+    border-radius: 10px;
+    margin: 20px;
   }
 }
