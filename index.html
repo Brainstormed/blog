@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
@@ -20,7 +21,7 @@
         </div>
       </button>
       <button class="button">
-        <div class="nav-elmnt"><a class="nav-link" href="#contacts">Contact</a></div>
+        <div class="nav-elmnt" id="contact"><a class="nav-link" href="#contacts">Contact</a></div>
       </button>
     </nav>
 
@@ -37,18 +38,18 @@
         <br />
         <code class="intro">
           #about {<br />
-          --interest: Learning-Web-Development;<br />
-          name: "Aritra";<br />
-          hobbies: Learning-Programming;<br />
-          goals: var(--interest);<br />
-          interests: var(--interest);<br />
+          &emsp; --interest: Learning-Web-Development;<br />
+          &emsp; name: "Aritra";<br />
+          &emsp; hobbies: Learning-Programming;<br />
+          &emsp; goals: var(--interest);<br />
+          &emsp; interests: var(--interest);<br />
           }
         </code>
       </div>
     </section>
     <div id="projects-container">
       <h2 id="work-header">
-        <code>
+        <code class="intro">
           a = "My"<br />
           b = " Projects"<br />
           document.write(a + b + ":"));<br />
@@ -127,7 +128,7 @@
           <img class="prfl-img" src="cdpn.png" alt="Codepen" />
       </section>
     </div>
-    <footer>
+    <footer id="footer">
       &copy; 2022 Aritra Mondal
     </footer>
   </body>
