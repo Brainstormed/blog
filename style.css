@@ -52,7 +52,6 @@ body::-webkit-scrollbar-thumb {
   flex-wrap: nowrap;
   font-size: 17px;
   display: block;
-  margin-right: 10px;
   font-weight: bold;
   color: rgb(49, 74, 107);
   color: rgb(107, 90, 23);
