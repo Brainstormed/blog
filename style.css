@@ -13,11 +13,11 @@ body {
 body::-webkit-scrollbar {
   width: 10px;
 }
- 
+
 body::-webkit-scrollbar-track {
   background-color: #f1f1f1;
 }
- 
+
 body::-webkit-scrollbar-thumb {
   background-color: rgba(88, 0, 0, 0.712);
   border: 1px solid rgb(255, 255, 255);
@@ -147,6 +147,10 @@ img {
   margin: 20px;
 }
 
+#menu {
+  display: none;
+}
+
 footer {
   display: flex;
   height: 30px;
@@ -185,6 +189,7 @@ footer {
     top: 0;
     left: 0;
     width: 100%;
+    height: max-content;
     background: rgb(255, 214, 103);
     box-shadow: 0 10px 10px rgb(54, 54, 54);
     z-index: 10;
