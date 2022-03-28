@@ -1,0 +1,87 @@
+---
+title: About Me
+layout: 'base.njk'
+header: 'main-header.njk'
+---
+
+<header>
+  <nav id="navbar">
+    <button class="button">
+      <div class="nav-elmnt">
+        <a class="nav-link" href="#welcome-section">About</a>
+      </div>
+    </button>
+    <button class="button">
+      <div class="nav-elmnt">
+        <a class="nav-link" href="#work-header">Work</a>
+      </div>
+    </button>
+    <button class="button">
+      <div class="nav-elmnt" id="contact"><a class="nav-link" href="#contacts">Contact</a></div>
+    </button>
+    <button class="button">
+      <div class="nav-elmnt"><a class="nav-link" href="./blog">Blog</a></div>
+    </button>
+  </nav>
+</header>
+
+<section id="welcome-section">
+  <div class="welcome-container">
+    <h1 style="
+            color: rgb(248, 219, 220);
+            font-family: 'Fira Sans Condensed', sans-serif;
+          ">
+      Hi there!
+    </h1>
+    <br />
+    <code class="intro">
+      #about {<br />
+      &emsp; --interest: Learning-Web-Development;<br />
+      &emsp; name: "Aritra";<br />
+      &emsp; hobbies: Learning-Programming;<br />
+      &emsp; goals: var(--interest);<br />
+      &emsp; interests: var(--interest);<br />
+      }
+    </code>
+  </div>
+  <a href="./blog">sss</a>
+</section>
+<div id="projects-container">
+  <h2 id="work-header">
+    <code class="intro">
+      a = "My"<br />
+      b = " Projects"<br />
+      document.write(a + b + ":"));<br />
+      <br />Output: My Projects:
+    </code>
+  </h2>
+  <section id="projects">
+    <div class="project-tile">
+      <a href="https://codepen.io/aritramondal855/pen/qBVqGGK" target="_blank"
+        style="margin-top: 20px; display: block"><img class="img" src="assets/robot.png"
+          alt="Robot Animation" />&commat;Robot
+        Animation</a>
+    </div>
+    <div class="project-tile">
+      <a href="https://codepen.io/aritramondal855/pen/WNEyPOq" target="_blank"
+        style="margin-top: 20px; display: block"><img class="img" src="assets/trbut.png"
+          alt="Tribute Page Image" />&commat;Tribute
+        Page</a>
+    </div>
+    <div class="project-tile">
+      <a href="https://codepen.io/aritramondal855/pen/ZEJjoVP" target="_blank"
+        style="margin-top: 20px; display: block"><img class="img" src="assets/survey.png"
+          alt="Student Survey Form Image" />&commat;Student Survey Form</a>
+    </div>
+    <div class="project-tile">
+      <a href="https://codepen.io/aritramondal855/pen/vYepxwg" target="_blank"
+        style="margin-top: 20px; display: block"><img class="img" src="assets/prdct.png"
+          alt="Product Landing Page" />&commat;Product
+        Landing Page</a>
+    </div>
+    <div class="project-tile">
+      <a href="https://codepen.io/aritramondal855/pen/dyZOEaq" target="_blank"
+        style="margin-top: 20px; display: block"><img class="img" src="assets/comp.png" Computer" />&commat;Computer</a>
+    </div>
+</div>
+</section>
