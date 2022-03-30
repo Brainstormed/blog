@@ -3,3 +3,19 @@ title: Blog
 layout: 'base.njk'
 header: 'header.njk'
 ---
+
+<div id="body" class="blog">
+    <h1 class="article-title">Recent Articles</h1>
+
+    <ul role="list" class="article-list">
+        {%- for post in collections.post | reverse-%}
+            <article class="snippet">
+                <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" class="snippet-image">
+                <h2 class="snippet-title">{{ post.data.title }}</h2>
+                <h3 class="snippet-metadata">by {{ post.data.author }}<br>Date: {{ post.data.date }}</h3>
+                <h3 class="snippet-desc">{{ post.data.description }}</h3>
+                <button class="link-btn"><a href="#">Continue Reading</a></button>
+            </article>
+        {%- endfor -%}
+    </ul>
+</div>
