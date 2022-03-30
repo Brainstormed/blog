@@ -2,7 +2,7 @@
 title: My Fourth Article
 author: Aritra  Mondal
 date: 2021-06-01
-image: https://www.consultantsreview.com/newstransfer/upload/289jpXiaomi-VR.jpg
+image: ./../../assets/blog/article4img.jpg
 imageAlt: This is a test
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida lectus at neque commodo sodales. Vivamus pellentesque, erat ac consequat porttitor, diam risus tempus neque, vitae aliquam felis lorem id.
 ---

@@ -3,7 +3,7 @@ title: My First Article
 author: Aritra Mondal
 date: 2021-05-01
 tags: ["post", "featured"]
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/TEIDE.JPG/1024px-TEIDE.JPG
+image: ./../../assets/blog/article1img.jpg
 imageAlt: This is a test
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida lectus at neque commodo sodales. Vivamus pellentesque, erat ac consequat porttitor, diam risus tempus neque, vitae aliquam felis lorem id.
 ---

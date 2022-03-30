@@ -2,7 +2,7 @@
 title: My Second Article
 author: Aritra Mondal
 date: 2021-05-15
-image: https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVvcGxlJTIwY29tcHV0ZXJ8ZW58MHx8MHx8&w=1000&q=80
+image: ./../../assets/blog/article2img.jpg
 imageAlt: This is a test
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida lectus at neque commodo sodales. Vivamus pellentesque, erat ac consequat porttitor, diam risus tempus neque, vitae aliquam felis lorem id.
 ---

@@ -3,7 +3,7 @@ title: My Third Article
 author: Aritra Mondal
 date: 2021-05-28
 tags: ['post', 'featured']
-image: https://www.jotform.com/blog/wp-content/uploads/2008/07/photo-1505685296765-3a2736de412f.jpeg
+image: ./../../assets/blog/article3img.jpg
 imageAlt: This is a test
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida lectus at neque commodo sodales. Vivamus pellentesque, erat ac consequat porttitor, diam risus tempus neque, vitae aliquam felis lorem id.
 ---
