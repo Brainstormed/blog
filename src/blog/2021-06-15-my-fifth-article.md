@@ -2,7 +2,7 @@
 title: My Fifth Article
 author: Aritra Mondal
 date: 2021-06-15
-image: ./../../assets/blog/article5img.webp
+image: /assets/blog/article5img.webp
 imageAlt: This is a test
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida lectus at neque commodo sodales. Vivamus pellentesque, erat ac consequat porttitor, diam risus tempus neque, vitae aliquam felis lorem id.
 ---
