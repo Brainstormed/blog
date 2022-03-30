@@ -1,0 +1,11 @@
+<ul role="list" class="article-list" id="featured">
+    {%- for post in collections.featured | reverse-%}
+        <article class="snippet">
+            <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" class="snippet-image">
+            <h2 class="snippet-title">{{ post.data.title }}</h2>
+            <h3 class="snippet-metadata">by {{ post.data.author }} on {{ post.data.date | postDate }}</h3>
+            <h3 class="snippet-desc">{{ post.data.description }}</h3>
+            <button class="link-btn"><a href=" {{post.url}} ">Continue Reading</a></button>
+        </article>
+    {%- endfor -%}
+</ul>
