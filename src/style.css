@@ -171,6 +171,7 @@ a {
   width: 30em;
   max-width: 80vw;
   margin-top: 2em;
+  margin-right: 1em;
   border-radius: 1em;
   border: #333 solid 0.5em;
   transition: all 0.25s ease-in;
