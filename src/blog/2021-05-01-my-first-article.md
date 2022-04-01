@@ -1,11 +1,15 @@
 ---
 title: My First Article
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+  gravida lectus at neque commodo sodales. Vivamus pellentesque, erat ac
+  consequat porttitor, diam risus tempus neque, vitae aliquam felis lorem id.
 author: Aritra Mondal
-date: 2021-05-01
-tags: ["post", "featured"]
+date: 2022-04-01T18:15:01.273Z
+tags:
+  - post
+  - featured
 image: /assets/blog/article1img.jpg
 imageAlt: This is a test
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida lectus at neque commodo sodales. Vivamus pellentesque, erat ac consequat porttitor, diam risus tempus neque, vitae aliquam felis lorem id.
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus, tellus in tempor convallis, mauris orci sollicitudin tortor, at commodo leo erat sed libero. Duis suscipit rutrum lorem, nec pulvinar libero gravida vitae. Sed et ipsum dolor. Morbi euismod euismod volutpat. Sed sem eros, posuere id tristique eget, tempus nec nisi. Proin quis bibendum urna, sed posuere leo. Ut lobortis justo lectus, non facilisis lorem pulvinar in. Donec interdum, arcu vel imperdiet cursus, orci velit vestibulum odio, consectetur consequat elit nisl nec elit.
