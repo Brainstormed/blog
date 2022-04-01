@@ -6,6 +6,7 @@ body {
   background-color: rgb(121, 84, 37);
   scrollbar-color: rgba(88, 0, 0, 0.712) rgb(255, 255, 255);
   scrollbar-width: thin;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -123,7 +124,7 @@ a {
 
 .blog {
   display: block !important;
-  height: fit-content;
+  height: fit-content; 
   position: relative;
   padding-top: 5em;
   text-align: center;
@@ -151,8 +152,8 @@ a {
   margin-bottom: 2em;
 }
 
-#featured>h2,
-#featured>p {
+#featured > h2,
+#featured > p {
   position: relative;
   left: -0.5em;
   padding-top: 1.5em;
@@ -160,11 +161,10 @@ a {
 
 .snippet {
   position: relative;
-  display: grid;
   grid-template-rows: repeat(5, max-content);
   justify-items: center;
   padding-top: 2em;
-  left: -0.7em;
+  height: 30em;
 }
 
 .snippet-image {
@@ -175,25 +175,28 @@ a {
   border: #333 solid 0.5em;
   transition: all 0.25s ease-in;
   padding: 0.4em;
+  float: right;
 }
 
 .snippet-title,
 .snippet-desc {
   font-family: Noto, sans-serif;
   color: #333;
+  max-width: 30vw;
 }
 
 .snippet-desc {
   font-weight: 300;
   text-align: justify;
   width: 30em;
-  max-width: 80vw;
+  max-width: 30%;
 }
 
 .snippet-metadata {
   font-family: 'Fira Code', monospace;
   font-weight: 300;
   color: #333;
+  max-width: 30vw;
 }
 
 .article-heading {
@@ -203,11 +206,11 @@ a {
   text-align: center;
 }
 
-.article-content>p {
+.article-content > p {
   display: block;
   text-align: justify;
   width: 55em;
-  max-width: 80%;
+  max-width: 80vw;
   margin: auto;
   margin-bottom: 2em;
   font-weight: 300;
@@ -240,7 +243,7 @@ a {
   border-radius: 0%;
   width: 35em;
   height: auto;
-  max-width: 90vw;
+  max-width: 85vw;
   transition: all 0.25s ease-in;
 }
 
@@ -350,7 +353,7 @@ footer {
   }
 }
 
-@media all and (max-width: 550px) {
+@media all and (max-width: 870px) {
   #navbar {
     position: sticky;
     display: flex;
@@ -378,29 +381,16 @@ footer {
     margin: 0;
   }
 
-  #featured {
-    position: relative;
-    top: 2em;
-    padding-bottom: 3em;
-    margin-bottom: 2em;
-  }
-
-  #featured>h2,
-  #featured>p {
-    position: relative;
-    left: -0.5em;
-    padding-top: 1.5em;
-  }
-
   .snippet {
     position: relative;
     display: grid;
     grid-template-rows: repeat(5, max-content);
     justify-items: center;
     padding-top: 2em;
-    left: -0.7em;
+    right: 1em;
+    height: max-content;
   }
-
+  
   .snippet-image {
     width: 30em;
     max-width: 80vw;
@@ -410,23 +400,25 @@ footer {
     transition: all 0.25s ease-in;
     padding: 0.4em;
   }
-
+  
   .snippet-title,
   .snippet-desc {
     font-family: Noto, sans-serif;
     color: #333;
+    max-width: 80vw;
   }
-
+  
   .snippet-desc {
     font-weight: 300;
     text-align: justify;
     width: 30em;
-    max-width: 80vw;
+    max-width: 75vw;
   }
-
+  
   .snippet-metadata {
     font-family: 'Fira Code', monospace;
     font-weight: 300;
     color: #333;
+    max-width: 75vw;
   }
 }
