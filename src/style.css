@@ -45,6 +45,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+  gap: 1em;
   background: rgb(255, 214, 103);
   box-shadow: 0 10px 10px rgb(54, 54, 54);
   z-index: 10;
@@ -270,6 +271,9 @@ a {
 .button {
   height: 60px;
   padding-top: 15px;
+  display: inline-block;
+  padding-right: 1em;
+  padding-left: 1em;
   background-color: transparent;
   border: none;
   min-height: max-content;
@@ -361,6 +365,7 @@ footer {
     justify-content: space-around;
     position: fixed;
     height: max-content;
+    gap: 0;
   }
 
   .button {
