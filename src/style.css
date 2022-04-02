@@ -272,8 +272,7 @@ a {
   padding-top: 15px;
   background-color: transparent;
   border: none;
-  width: 100px;
-  max-width: calc(100vw / 6);
+  min-height: max-content;
 }
 
 .img {
@@ -365,12 +364,14 @@ footer {
   }
 
   .button {
-    min-width: 5.5em
+    min-width: 5em;
+    padding: auto;
   }
 
   .nav-link {
-    font-size: 1.05em;
+    font-size: 1em;
     position: relative;
+    font-weight: 300;
   }
 
   .project-tile {
