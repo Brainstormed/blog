@@ -7,6 +7,7 @@
   --clr-red1: #ca604d;
   --clr-ochre: #6b5a17;
   --clr-black: #363636;
+  --clr-blue: #6b99fd;
 }
 
 html, body {
@@ -45,8 +46,7 @@ html, body {
 }
 
 ::selection {
-  background-color: var(--clr-brown);
-  opacity: 0.5;
+  background-color: var(--clr-blue);
   color: var(--clr-white);
 }
 
