@@ -1,13 +1,13 @@
 :root {
-  --clr-white: #f1f1f1;
-  --clr-maroon: #580000;
-  --clr-purple: #303870;
-  --clr-green: #c8ff00;
-  --clr-red: #e69a8d;
-  --clr-red1: #ca604d;
-  --clr-ochre: #6b5a17;
-  --clr-black: #363636;
-  --clr-blue: #6b99fd;
+  --clr-white: hsl(0, 0%, 95%);
+  --clr-maroon: hsl(0, 100%, 17%);
+  --clr-purple: hsl(233, 40%, 31%);
+  --clr-green: hsl(73, 100%, 50%);
+  --clr-red: hsl(9, 64%, 73%);
+  --clr-red1: hsl(9, 54%, 55%);
+  --clr-ochre: hsl(48, 65%, 25%);
+  --clr-black: hsl(0, 0%, 21%);
+  --clr-blue: hsl(221, 97%, 71%);
 }
 
 html, body {
