@@ -81,6 +81,8 @@ html, body {
   border: none;
   min-height: max-content;
   padding-inline: 1em;
+  min-width: 5em;
+  transition: all 0.5s ease;
 }
 
 a {
@@ -139,7 +141,8 @@ a {
 }
 
 .img:hover, .img:focus, .img:active {
-  animation: img-hover 500ms linear forwards;
+  box-shadow: var(--clr-black) 10px 10px 10px;
+  transition: all 0.5s linear;
 }
 
 #featured {
@@ -310,7 +313,8 @@ a {
 }
 
 .prfl-img:hover, .prfl-img:focus, .prfl-img:active {
-  animation: img-hover 500ms linear forwards;
+  box-shadow: var(--clr-black) 10px 10px 10px;
+  transition: all 0.5s linear;
 }
 
 #contacts {
@@ -339,19 +343,8 @@ footer {
 }
 
 .button:hover, .button:focus-within, .button:active {
-  animation: btn-hover 500ms linear forwards;
-}
-
-@keyframes btn-hover {
-  100% {
-      background-color: var(--clr-red1);
-  }
-}
-
-@keyframes img-hover {
-  100% {
-      box-shadow: var(--clr-black) 10px 10px 10px;
-  }
+  background-color: var(--clr-red1);
+  transition: all 0.5s ease;
 }
 
 @media all and (max-width: 870px) {
@@ -362,10 +355,6 @@ footer {
       position: fixed;
       height: max-content;
       gap: 0;
-  }
-
-  .button {
-      min-width: 5em;
   }
 
   .nav-link {
