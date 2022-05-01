@@ -9,7 +9,7 @@
     --clr-ochre: hsl(48, 65%, 25%);
     --clr-primary: hsl(0, 0%, 21%);
     --clr-blue: hsl(221, 97%, 71%);
-    --clr-shdw: rgb(105, 105, 105);
+    --clr-shdw: hsl(240, 14%, 23%);
   }
 }
 
@@ -24,6 +24,7 @@
     --clr-ochre: hsl(48, 65%, 25%);
     --clr-primary: hsl(0, 0%, 97%);
     --clr-blue: hsl(0, 100%, 89%);
+    --clr-shdw: hsl(240, 14%, 77%);
   }
 }
 
