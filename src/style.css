@@ -270,6 +270,7 @@ a {
   text-align: justify;
   width: 30em;
   max-width: 30%;
+  font-size: 1.05em;
 }
 
 .snippet-metadata {
@@ -438,6 +439,7 @@ footer {
       text-align: justify;
       width: 30em;
       max-width: 75vw;
+      font-size: 1.05em;
   }
 
   .snippet-metadata {
