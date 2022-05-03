@@ -89,6 +89,7 @@ html, body {
   font-weight: bold;
   color: var(--clr-ochre);
   min-height: 100%;
+  font-family: system-ui;
 }
 
 .button {
@@ -105,7 +106,6 @@ a {
   text-decoration: none;
   color: var(--clr-primary);
   font-size: 1.1em;
-  font-family: system-ui;
 }
 
 #welcome-section {
